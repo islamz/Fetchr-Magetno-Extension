@@ -17,7 +17,8 @@
 * versions in the future. If you wish to customize Fetchr Magento Extension (Fetchr Shipping) for your
 * needs please refer to http://www.fetchr.us for more information.
 *
-* @author     Danish Kamal
+* @author     Islam Khalil
+* @package    Fetchr Shipping
 * @copyright  Copyright (c) 2015 Fetchr (http://www.fetchr.us)
 * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
@@ -38,10 +39,6 @@ class Fetchr_Shipping_IndexController extends Mage_Core_Controller_Front_Action
 
     public function testAction() {
         //
-        $order = Mage::getModel('sales/order')->load('100000102', 'increment_id');
-        // $order->addStatusHistoryComment('pending', false)->save();
-        $order->setStatus('fetchr_shipping')->save();
-
         echo 'ok!';
     }
 }

@@ -22,7 +22,7 @@
                     <fetchr_shipping>
                         <type>singleton</type>
                         <class>fetchr_shipping/observer</class>
-                        <method>creatTrckingNumberCOD</method>
+                        <method>getCODTrackingNo</method>
                     </fetchr_shipping>
                 </observers>
             </sales_order_place_after>
@@ -31,10 +31,19 @@
                     <fetchr_shipping>
                         <type>singleton</type>
                         <class>fetchr_shipping/observer</class>
-                        <method>creatTrckingNumberCC</method>
+                        <method>getCCTrackingNo</method>
                     </fetchr_shipping>
                 </observers>
             </sales_order_invoice_pay>
+            <sales_order_shipment_save_after>
+                <observers>
+                    <fetchr_shipping>
+                        <type>singleton</type>
+                        <class>fetchr_shipping/observer</class>
+                        <method>pushOrderAfterShipmentCreation</method>
+                    </fetchr_shipping>
+                </observers>
+            </sales_order_shipment_save_after>
         </events>
     </global>
     <admin>

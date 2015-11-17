@@ -17,7 +17,7 @@
  * versions in the future. If you wish to customize Fetchr Magento Extension (Fetchr Shiphappy) for your
  * needs please refer to http://www.fetchr.us for more information.
  *
- * @author     Danish Kamal
+ * @author     Islam Khalil
  * @package    Fetchr Shiphappy
  * @copyright  Copyright (c) 2015 Fetchr (http://www.fetchr.us)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)

@@ -14,11 +14,11 @@
  * DISCLAIMER
  *
  * Do not edit or add to this file if you wish to upgrade Fetchr Magento Extension to newer
- * versions in the future. If you wish to customize Fetchr Magento Extension (Fetchr Shiphappy) for your
+ * versions in the future. If you wish to customize Fetchr Magento Extension (Fetchr Shipping) for your
  * needs please refer to http://www.fetchr.us for more information.
  *
- * @author     Danish Kamal
- * @package    Fetchr Shiphappy
+ * @author     Islam Khalil
+ * @package    Fetchr Shipping
  * Used in creating options for fulfilment|delivery config value selection
  * @copyright  Copyright (c) 2015 Fetchr (http://www.fetchr.us)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
